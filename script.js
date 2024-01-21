@@ -3,7 +3,6 @@ const texto = document.getElementById('pablo')
 
 let texto1 = 'Hola querido amigo!'
 let texto2 = 'pico pal que lee!'
-<<<<<<< HEAD
 let viernes = '<iframe width="560" height="315" src="https://www.youtube.com/embed/aSUuw5HY9eY?si=Yc6BEDG2dUgkKfQM" id="youtubeVideo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 
 btn.addEventListener('click', () => {
@@ -41,10 +40,3 @@ document.addEventListener("DOMContentLoaded", function() {
     // Reproduce el video si ya es visible en la carga inicial
     playVideoIfVisible();
 });
-=======
-let viernes = '<iframe width="560" height="315" src="https://www.youtube.com/embed/aSUuw5HY9eY?si=Yc6BEDG2dUgkKfQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
-
-btn.addEventListener('click', () => {
-    texto.innerHTML = viernes
-})
->>>>>>> abb6ee0b2cb72899e12002d5a7ec77232a54e281

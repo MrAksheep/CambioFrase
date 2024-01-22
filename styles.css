@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+main {
+    text-align: center;
+}
+
+.boton {
+    padding: 15px;
+    background-color: rgb(0, 204, 136);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border-color: rgb(0, 204, 136);
+}
